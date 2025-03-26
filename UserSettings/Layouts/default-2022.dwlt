@@ -119,7 +119,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 92
+  controlID: 44
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -144,7 +144,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 39
+  controlID: 45
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -169,7 +169,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 40
+  controlID: 46
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -351,7 +351,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 143dfeffe2d3feff22d6feff2245ffff604fffffc877ffffcc78ffffd67dffff807fffffbe80ffff6a8bffff028cffff5a8dffff
+      m_ExpandedIDs: 707cffff687effff748affff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -770,9 +770,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -20.274046, y: -1.5836604, z: 1.2551253}
+    m_Target: {x: -3.1537468, y: 3.785367, z: 3.2916055}
     speed: 2
-    m_Value: {x: -20.274046, y: -1.5836604, z: 1.2551253}
+    m_Value: {x: -3.1537468, y: 3.785367, z: 3.2916055}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -818,13 +818,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.05271598, y: 0.8020609, z: -0.07134047, w: -0.59078825}
+    m_Target: {x: 0.018805137, y: -0.5710633, z: 0.012919717, w: 0.8207744}
     speed: 2
-    m_Value: {x: -0.05292445, y: 0.8002046, z: -0.07117485, w: -0.5931322}
+    m_Value: {x: 0.01882163, y: -0.56974477, z: 0.012889532, w: 0.821505}
   m_Size:
-    m_Target: 7.876638
+    m_Target: 0.64235026
     speed: 2
-    m_Value: 7.5374527
+    m_Value: 0.61468923
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -992,7 +992,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/LearnMaterials 2/Learn prefabs 2/Materials
+    - Assets/LearnMaterials 2/Learn prefabs 2/prefab_vit
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -1000,16 +1000,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/LearnMaterials 2/Learn prefabs 2/Materials
+  - Assets/LearnMaterials 2/Learn prefabs 2/prefab_vit
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: D:\A_WORK\Uniti\UniGacha\UnityLearnSample
+  m_LastProjectPath: D:\A_WORK\Uniti\UniGacha\test_u\UnityLearnSample
   m_LockTracker:
     m_IsLocked: 1
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 34070000
-    m_LastClickedID: 1844
-    m_ExpandedIDs: 00000000f00500008c060000f806000000ca9a3b
+    m_SelectedIDs: 74070000
+    m_LastClickedID: 1908
+    m_ExpandedIDs: 00000000f4050000400600008c060000940600000007000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: Textures
@@ -1020,7 +1020,7 @@ MonoBehaviour:
         y: 0
         width: 0
         height: 0
-      m_UserData: 2088
+      m_UserData: 2128
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
       m_OriginalEventType: 0
@@ -1037,7 +1037,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 
+    m_ExpandedIDs: 00000000f40500009406000000070000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1064,7 +1064,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c623000012eb0000de72000012730000e4710000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
