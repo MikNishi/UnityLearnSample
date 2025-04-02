@@ -6,6 +6,7 @@ using UnityEngine;
 [HelpURL("https://docs.google.com/document/d/1Cmm__cbik5J8aHAI6PPaAUmEMF3wAcNo3rpgzsYPzDM/edit?usp=sharing")]
 public class TransparentModule : MonoBehaviour
 {
+    [SerializeField, Min(0.1f)]
     private float changeSpeed;
 
     private float defaultAlpha;
@@ -19,6 +20,7 @@ public class TransparentModule : MonoBehaviour
         toDefault = false;
     }
 
+    [ContextMenu("Activate module")]
     public void ActivateModule()
     {
         float target = toDefault ? defaultAlpha : 0;
@@ -27,6 +29,7 @@ public class TransparentModule : MonoBehaviour
         toDefault = !toDefault;
     }
 
+    [ContextMenu("Возвращение к дефолту")]
     public void ReturnToDefaultState()
     {
         toDefault = true;
