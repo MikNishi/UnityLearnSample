@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections;
+using UnityEngine.Events;
 
 public class MoveObject : SampleScript
 {
@@ -16,6 +17,8 @@ public class MoveObject : SampleScript
     private Transform myTransform;
     private bool toDefault;
 
+    public UnityEvent onUseEvent;
+
     private void Awake()
     {
         myTransform = transform;
@@ -28,6 +31,7 @@ public class MoveObject : SampleScript
     {
         StopAllCoroutines();
         StartCoroutine(RepeatMove());
+        onUseEvent.Invoke();
     }
 
     private IEnumerator RepeatMove()
